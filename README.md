@@ -20,6 +20,8 @@ python urlresolver.py [-f INPUT_FILE] [-o OUTPUT_FILE]
 ### Options:
 - `-f, --file`  : Specifies the input file containing URLs (default: `url.txt`).
 - `-o, --output`: Specifies the output file to save resolved addresses (default: `resolved_addresses.txt`).
+- `-n --normalize`: Specifies that the output should be a simple normalization of the URL - i.e. strip the http(s):// and trailing /$.
+- `-r --resolve`: Specifies that the domain should be resolved and places as their literal IPv6 and/or legacy IPv4 addresses (default: -n).
 - `-h, --help`  : Displays the help message.
 
 ## Example
@@ -49,4 +51,4 @@ The output file will contain resolved IP addresses, with the original URL commen
 - The script automatically removes protocol prefixes (e.g., `http://`, `https://`) and trailing slashes before resolving domains.
 
 ## Caveats
-The script can't handle stripping really long URLs, so anything egregiously long will need to be cleaned up
+The script can't handle stripping really, really long URLs, so anything egregiously long will need to be cleaned up manually.
