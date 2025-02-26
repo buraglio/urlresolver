@@ -1,5 +1,5 @@
 # Simple DNS Resolver Script for URLs
-This script is useful for creating files suitable for importing into tools that require one address per line such as pihole
+This script is marginally useful for creating files suitable for importing into tools that require one address or URL per line such as pihole
 
 ## Description
 This Python script reads a list of URLs from an input file, extracts the domain names, and resolves their A (IPv4) and AAAA (IPv6) records. The results are printed to the console and saved to an output file.
