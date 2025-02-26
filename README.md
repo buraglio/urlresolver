@@ -45,6 +45,19 @@ The output file will contain resolved IP addresses, with the original URL commen
 3ffe:db8::1
 # ----------------------------------------
 ```
+Or, depending on the -n flag, it will return a list of commented, normalized URLs:
+```
+# https://7e14d.v.fwmrm.net
+7e14d.v.fwmrm.net
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://a-fds.youborafds01.com
+a-fds.youborafds01.com
+# ----------------------------------------
+# 
+```
+
 
 ## Notes
 - If a domain has no A or AAAA records, it will be noted in the console output but omitted from the output file.
