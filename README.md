@@ -17,6 +17,19 @@ Run the script with the following options:
 python urlresolver.py [-f INPUT_FILE] [-o OUTPUT_FILE]
 ```
 
+or 
+
+```
+chmod +x urlresolver.py
+```
+
+and then 
+
+```
+./urlresolver.py [-f INPUT_FILE] [-o OUTPUT_FILE]
+```
+
+
 ### Options:
 - `-f, --file`  : Specifies the input file containing URLs (default: `url.txt`).
 - `-o, --output`: Specifies the output file to save resolved addresses (default: `resolved_addresses.txt`).
@@ -62,6 +75,7 @@ a-fds.youborafds01.com
 ## Notes
 - If a domain has no A or AAAA records, it will be noted in the console output but omitted from the output file.
 - The script automatically removes protocol prefixes (e.g., `http://`, `https://`) and trailing slashes before resolving domains.
+- If you'd rather run this as perl, simply `chmod +x urlresolver.pl` and run `./urlresolver.pl`. It should behave mostly the same with the same behavior, flags, and options.
 
 ## Caveats
 The script can't handle stripping really, really long URLs, so anything egregiously long will need to be cleaned up manually.
