@@ -152,7 +152,8 @@ tpsc-video-uw.doubleverify.com
 track.activemetering.com
 # ----------------------------------------
 # https://uapi.production-public.tubi.io/datascience/logging?sendBeacon=true
-uapi.production-public.tubi.io
+# Removed to test tubi on apple TV
+# uapi.production-public.tubi.io
 # ----------------------------------------
 # 
 
@@ -161,7 +162,8 @@ uapi.production-public.tubi.io
 unified.adsafeprotected.com
 # ----------------------------------------
 # https://user-signals.production-public.tubi.io/
-user-signals.production-public.tubi.io
+# Removed to test tubi on apple TV
+# user-signals.production-public.tubi.io
 # ----------------------------------------
 # 
 
