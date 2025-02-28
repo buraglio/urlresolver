@@ -1,0 +1,366 @@
+# https://7e14d.v.fwmrm.net
+iptables -A INPUT -s 3.231.143.28 -j ACCEPT
+iptables -A INPUT -s 3.231.143.13 -j ACCEPT
+iptables -A INPUT -s 3.144.50.207 -j ACCEPT
+iptables -A INPUT -s 3.144.50.196 -j ACCEPT
+iptables -A INPUT -s 3.231.143.33 -j ACCEPT
+iptables -A INPUT -s 3.144.50.131 -j ACCEPT
+iptables -A INPUT -s 3.231.143.108 -j ACCEPT
+iptables -A INPUT -s 3.144.50.152 -j ACCEPT
+iptables -A INPUT -s 3.144.50.238 -j ACCEPT
+iptables -A INPUT -s 3.144.50.143 -j ACCEPT
+iptables -A INPUT -s 2600:1f18:6593:f607:76e2:e824:b454:65c8 -j ACCEPT
+iptables -A INPUT -s 2600:1f18:6593:f602:4d5e:ab92:54cb:6c57 -j ACCEPT
+iptables -A INPUT -s 2600:1f16:e61:3f00:3bf:6074:a3a8:f8ee -j ACCEPT
+iptables -A INPUT -s 2600:1f18:6593:f607:11a7:cf56:2b1f:dc6 -j ACCEPT
+iptables -A INPUT -s 2600:1f16:e61:3f00:baa5:23e4:85f7:1543 -j ACCEPT
+iptables -A INPUT -s 2600:1f16:e61:3f02:363e:3490:f8eb:b263 -j ACCEPT
+iptables -A INPUT -s 2600:1f16:e61:3f00:8ee4:aebf:9bcf:279b -j ACCEPT
+iptables -A INPUT -s 2600:1f18:6593:f606:2bad:1cf:7b7b:1af -j ACCEPT
+iptables -A INPUT -s 2600:1f18:6593:f606:56d:13b0:4fac:bcd1 -j ACCEPT
+iptables -A INPUT -s 2600:1f16:e61:3f01:9802:108e:78ba:29ea -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://a-fds.youborafds01.com
+iptables -A INPUT -s 34.226.34.166 -j ACCEPT
+iptables -A INPUT -s 3.221.135.208 -j ACCEPT
+iptables -A INPUT -s 2001:1af8:5000:b001::52 -j ACCEPT
+iptables -A INPUT -s 2001:1af8:5000:b001::50 -j ACCEPT
+iptables -A INPUT -s 2001:1af8:5000:b001::33 -j ACCEPT
+iptables -A INPUT -s 2001:1af8:5000:b001::51 -j ACCEPT
+iptables -A INPUT -s 2001:1af8:5000:b001::56 -j ACCEPT
+iptables -A INPUT -s 2001:1af8:5000:b001::53 -j ACCEPT
+iptables -A INPUT -s 2001:1af8:5000:b001::36 -j ACCEPT
+iptables -A INPUT -s 2001:1af8:5000:b001::54 -j ACCEPT
+iptables -A INPUT -s 2001:1af8:5000:b001::55 -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://a4172.casalemedia.com
+iptables -A INPUT -s 192.40.33.145 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::c028:2191 -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://ad-events.flashtalking.com
+iptables -A INPUT -s 3.128.122.118 -j ACCEPT
+iptables -A INPUT -s 3.19.200.106 -j ACCEPT
+iptables -A INPUT -s 3.14.31.248 -j ACCEPT
+iptables -A INPUT -s 3.135.107.176 -j ACCEPT
+iptables -A INPUT -s 18.190.41.234 -j ACCEPT
+iptables -A INPUT -s 3.136.57.137 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::12be:29ea -j ACCEPT
+iptables -A INPUT -s 64:ff9b::313:c86a -j ACCEPT
+iptables -A INPUT -s 64:ff9b::388:3989 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::30e:1ff8 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::387:6bb0 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::380:7a76 -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://ad.doubleclick.net
+iptables -A INPUT -s 142.250.191.102 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::8efa:bf66 -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://ade.googlesyndication.com
+iptables -A INPUT -s 172.217.2.34 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::acd9:222 -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://ads.stickyadstv.com
+iptables -A INPUT -s 38.98.139.68 -j ACCEPT
+iptables -A INPUT -s 38.98.139.67 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::2662:8b43 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::2662:8b44 -j ACCEPT
+# ----------------------------------------
+# https://analytics-ingestion-v3.main-production-custom.production.k8s.tubi.io/
+iptables -A INPUT -s 52.25.148.44 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::3424:f926 -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://ark.tubi.video
+iptables -A INPUT -s 3.162.174.78 -j ACCEPT
+iptables -A INPUT -s 3.162.174.110 -j ACCEPT
+iptables -A INPUT -s 3.162.174.55 -j ACCEPT
+iptables -A INPUT -s 3.162.174.90 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2617:de00:e:21ad:ddc0:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2617:8c00:e:21ad:ddc0:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2617:d800:e:21ad:ddc0:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2617:9400:e:21ad:ddc0:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2617:2400:e:21ad:ddc0:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2617:6a00:e:21ad:ddc0:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2617:5600:e:21ad:ddc0:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2617:9c00:e:21ad:ddc0:93a1 -j ACCEPT
+# ----------------------------------------
+# https://b.videoamp.com/
+iptables -A INPUT -s 100.25.93.188 -j ACCEPT
+iptables -A INPUT -s 3.228.115.149 -j ACCEPT
+iptables -A INPUT -s 98.83.130.153 -j ACCEPT
+iptables -A INPUT -s 3.230.190.126 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::3e4:7395 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::3e6:be7e -j ACCEPT
+iptables -A INPUT -s 64:ff9b::6253:8299 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::6419:5dbc -j ACCEPT
+# ----------------------------------------
+# https://bpm-pixel.pointmediatracker.com/
+iptables -A INPUT -s 54.167.187.208 -j ACCEPT
+iptables -A INPUT -s 3.82.80.179 -j ACCEPT
+iptables -A INPUT -s 54.210.181.122 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::22e4:b105 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::3692:2509 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::3456:23d7 -j ACCEPT
+# ----------------------------------------
+# https://ca4-bid.adsrvr.org
+iptables -A INPUT -s 199.250.163.129 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::c7fa:a381 -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://cm.g.doubleclick.net
+iptables -A INPUT -s 142.251.32.2 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::8efb:2002 -j ACCEPT
+# ----------------------------------------
+# https://cs.ns1p.net/p.js?a=7ia9f3
+iptables -A INPUT -s 3.139.195.190 -j ACCEPT
+iptables -A INPUT -s 18.223.41.93 -j ACCEPT
+iptables -A INPUT -s 2600:1f16:17:e211:750a:fbc1:d837:7f0 -j ACCEPT
+iptables -A INPUT -s 2600:1f16:17:e210:db37:7484:2136:34ca -j ACCEPT
+# ----------------------------------------
+# https://d.agkn.com/
+iptables -A INPUT -s 3.162.163.101 -j ACCEPT
+iptables -A INPUT -s 3.162.163.99 -j ACCEPT
+iptables -A INPUT -s 3.162.163.110 -j ACCEPT
+iptables -A INPUT -s 3.162.163.85 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2616:8200:19:fc2c:a140:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2616:f200:19:fc2c:a140:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2616:600:19:fc2c:a140:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2616:2e00:19:fc2c:a140:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2616:5600:19:fc2c:a140:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2616:f800:19:fc2c:a140:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2616:b200:19:fc2c:a140:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2616:6200:19:fc2c:a140:93a1 -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://enduser.adsrvr.org
+iptables -A INPUT -s 3.33.241.219 -j ACCEPT
+iptables -A INPUT -s 13.248.254.31 -j ACCEPT
+iptables -A INPUT -s 76.223.3.47 -j ACCEPT
+iptables -A INPUT -s 13.248.250.42 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::df8:fa2a -j ACCEPT
+iptables -A INPUT -s 64:ff9b::df8:fe1f -j ACCEPT
+iptables -A INPUT -s 64:ff9b::321:f1db -j ACCEPT
+iptables -A INPUT -s 64:ff9b::4cdf:32f -j ACCEPT
+# ----------------------------------------
+# https://hilton.demdex.net/
+iptables -A INPUT -s 44.208.97.160 -j ACCEPT
+iptables -A INPUT -s 44.193.46.60 -j ACCEPT
+iptables -A INPUT -s 34.195.203.139 -j ACCEPT
+iptables -A INPUT -s 13.216.34.24 -j ACCEPT
+iptables -A INPUT -s 34.239.69.92 -j ACCEPT
+iptables -A INPUT -s 34.192.154.254 -j ACCEPT
+iptables -A INPUT -s 35.168.189.99 -j ACCEPT
+iptables -A INPUT -s 52.0.38.151 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::23a8:bd63 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::dd8:2218 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::22c3:cb8b -j ACCEPT
+iptables -A INPUT -s 64:ff9b::2cd0:61a0 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::3400:2697 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::22ef:455c -j ACCEPT
+iptables -A INPUT -s 64:ff9b::2cc1:2e3c -j ACCEPT
+iptables -A INPUT -s 64:ff9b::22c0:9afe -j ACCEPT
+# ----------------------------------------
+# https://image4.pubmatic.com/
+iptables -A INPUT -s 207.65.37.182 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::cf41:25b6 -j ACCEPT
+# ----------------------------------------
+# https://k8s1-event-tracker-sj.lb.indexww.com/
+iptables -A INPUT -s 192.40.32.233 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::c028:20e9 -j ACCEPT
+# ----------------------------------------
+# https://o30277.ingest.sentry.io/
+iptables -A INPUT -s 34.120.195.249 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::2278:c3f9 -j ACCEPT
+# ----------------------------------------
+# https://p.tvpixel.com/
+iptables -A INPUT -s 99.83.205.94 -j ACCEPT
+iptables -A INPUT -s 75.2.57.54 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::6353:cd5e -j ACCEPT
+iptables -A INPUT -s 64:ff9b::4b02:3936 -j ACCEPT
+# ----------------------------------------
+# https://pi.ispot.tv
+iptables -A INPUT -s 146.75.78.132 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::924b:5284 -j ACCEPT
+# ----------------------------------------
+# https://pm.w55c.net/
+iptables -A INPUT -s 35.212.33.9 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::23d4:2109 -j ACCEPT
+# ----------------------------------------
+# https://rtr.innovid.com
+iptables -A INPUT -s 3.131.225.14 -j ACCEPT
+iptables -A INPUT -s 3.137.17.85 -j ACCEPT
+iptables -A INPUT -s 3.23.195.12 -j ACCEPT
+iptables -A INPUT -s 3.131.209.249 -j ACCEPT
+iptables -A INPUT -s 3.17.38.111 -j ACCEPT
+iptables -A INPUT -s 3.16.227.31 -j ACCEPT
+iptables -A INPUT -s 3.22.22.89 -j ACCEPT
+iptables -A INPUT -s 3.138.232.116 -j ACCEPT
+iptables -A INPUT -s 2600:1f16:1d41:4120:8f3c:5fa7:30d0:db8f -j ACCEPT
+iptables -A INPUT -s 2600:1f16:1d41:4140:6372:2f41:4cee:8dd -j ACCEPT
+iptables -A INPUT -s 2600:1f16:1d41:4120:717e:47c4:e45e:fc52 -j ACCEPT
+iptables -A INPUT -s 2600:1f16:1d41:4140:22cd:332f:9940:9208 -j ACCEPT
+iptables -A INPUT -s 2600:1f16:1d41:4140:b210:c8c0:2c23:f9ae -j ACCEPT
+iptables -A INPUT -s 2600:1f16:1d41:4100:9a5a:dee7:e32d:c8dc -j ACCEPT
+iptables -A INPUT -s 2600:1f16:1d41:4100:1860:e013:8d13:be97 -j ACCEPT
+iptables -A INPUT -s 2600:1f16:1d41:4100:b01d:3df6:9d94:38a4 -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://s.innovid.com
+iptables -A INPUT -s 52.13.204.253 -j ACCEPT
+iptables -A INPUT -s 35.82.110.51 -j ACCEPT
+iptables -A INPUT -s 35.167.38.191 -j ACCEPT
+iptables -A INPUT -s 52.38.62.87 -j ACCEPT
+iptables -A INPUT -s 52.26.153.128 -j ACCEPT
+iptables -A INPUT -s 35.161.48.172 -j ACCEPT
+iptables -A INPUT -s 52.26.219.81 -j ACCEPT
+iptables -A INPUT -s 54.68.95.79 -j ACCEPT
+iptables -A INPUT -s 2600:1f14:2c91:5000:b812:d552:e75d:5e5f -j ACCEPT
+iptables -A INPUT -s 2600:1f14:2c91:5000:2e83:3732:5a71:d9ca -j ACCEPT
+iptables -A INPUT -s 2600:1f14:2c91:5000:625b:3181:16dd:6c4d -j ACCEPT
+iptables -A INPUT -s 2600:1f14:2c91:5020:13b5:b3e2:9f74:4a12 -j ACCEPT
+iptables -A INPUT -s 2600:1f14:2c91:5040:b980:696e:e042:fc85 -j ACCEPT
+iptables -A INPUT -s 2600:1f14:2c91:5020:8f55:7f37:550:13aa -j ACCEPT
+iptables -A INPUT -s 2600:1f14:2c91:5040:a40e:d251:923a:32f5 -j ACCEPT
+iptables -A INPUT -s 2600:1f14:2c91:5020:ddfd:545:f39a:8f11 -j ACCEPT
+# ----------------------------------------
+# https://s0.2mdn.net/dot.gif
+iptables -A INPUT -s 172.217.1.102 -j ACCEPT
+iptables -A INPUT -s 2607:f8b0:4009:801::2006 -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://secure-gl.imrworldwide.com
+iptables -A INPUT -s 3.170.152.111 -j ACCEPT
+iptables -A INPUT -s 3.170.152.89 -j ACCEPT
+iptables -A INPUT -s 3.170.152.65 -j ACCEPT
+iptables -A INPUT -s 3.170.152.75 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2885:9c00:1e:a43d:b640:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2885:ec00:1e:a43d:b640:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2885:7800:1e:a43d:b640:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2885:3400:1e:a43d:b640:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2885:ba00:1e:a43d:b640:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2885:b400:1e:a43d:b640:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2885:d400:1e:a43d:b640:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:2885:8600:1e:a43d:b640:93a1 -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://secure.insightexpressai.com
+iptables -A INPUT -s 23.221.245.73 -j ACCEPT
+iptables -A INPUT -s 2600:1407:1800:39f::1ec4 -j ACCEPT
+iptables -A INPUT -s 2600:1407:1800:3ab::1ec4 -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://servedby.flashtalking.com
+iptables -A INPUT -s 23.54.40.245 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::1736:28f5 -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://st.pubmatic.com
+iptables -A INPUT -s 207.65.32.83 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::cf41:2053 -j ACCEPT
+# ----------------------------------------
+# https://stags.bluekai.com/
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://t.pubmatic.com
+iptables -A INPUT -s 8.28.7.92 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::81c:75c -j ACCEPT
+# ----------------------------------------
+# https://tmobile.demdex.net/
+iptables -A INPUT -s 44.208.97.160 -j ACCEPT
+iptables -A INPUT -s 44.193.46.60 -j ACCEPT
+iptables -A INPUT -s 34.195.203.139 -j ACCEPT
+iptables -A INPUT -s 13.216.34.24 -j ACCEPT
+iptables -A INPUT -s 34.239.69.92 -j ACCEPT
+iptables -A INPUT -s 34.192.154.254 -j ACCEPT
+iptables -A INPUT -s 35.168.189.99 -j ACCEPT
+iptables -A INPUT -s 52.0.38.151 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::23a8:bd63 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::dd8:2218 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::22c3:cb8b -j ACCEPT
+iptables -A INPUT -s 64:ff9b::2cd0:61a0 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::3400:2697 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::22ef:455c -j ACCEPT
+iptables -A INPUT -s 64:ff9b::2cc1:2e3c -j ACCEPT
+iptables -A INPUT -s 64:ff9b::22c0:9afe -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://tpsc-video-uw.doubleverify.com
+iptables -A INPUT -s 35.201.101.243 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::23c9:65f3 -j ACCEPT
+# ----------------------------------------
+# https://track.activemetering.com/
+iptables -A INPUT -s 52.84.18.14 -j ACCEPT
+iptables -A INPUT -s 52.84.18.109 -j ACCEPT
+iptables -A INPUT -s 52.84.18.77 -j ACCEPT
+iptables -A INPUT -s 52.84.18.11 -j ACCEPT
+iptables -A INPUT -s 2600:9000:203a:9e00:7:4bc6:d200:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:203a:9600:7:4bc6:d200:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:203a:0:7:4bc6:d200:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:203a:2400:7:4bc6:d200:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:203a:9400:7:4bc6:d200:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:203a:ec00:7:4bc6:d200:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:203a:6c00:7:4bc6:d200:93a1 -j ACCEPT
+iptables -A INPUT -s 2600:9000:203a:7a00:7:4bc6:d200:93a1 -j ACCEPT
+# ----------------------------------------
+# https://uapi.production-public.tubi.io/datascience/logging?sendBeacon=true
+iptables -A INPUT -s 44.230.42.241 -j ACCEPT
+iptables -A INPUT -s 54.70.251.111 -j ACCEPT
+iptables -A INPUT -s 2600:1f14:b27:be04:ac9b:982b:ee3d:8f1c -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://unified.adsafeprotected.com
+iptables -A INPUT -s 34.192.104.122 -j ACCEPT
+iptables -A INPUT -s 52.6.0.13 -j ACCEPT
+iptables -A INPUT -s 34.192.199.92 -j ACCEPT
+iptables -A INPUT -s 52.20.251.235 -j ACCEPT
+iptables -A INPUT -s 44.218.251.23 -j ACCEPT
+iptables -A INPUT -s 54.174.33.0 -j ACCEPT
+iptables -A INPUT -s 3.215.249.218 -j ACCEPT
+iptables -A INPUT -s 54.85.255.97 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::3414:fbeb -j ACCEPT
+iptables -A INPUT -s 64:ff9b::2cda:fb17 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::36ae:2100 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::3d7:f9da -j ACCEPT
+iptables -A INPUT -s 64:ff9b::22c0:c75c -j ACCEPT
+iptables -A INPUT -s 64:ff9b::3406:d -j ACCEPT
+iptables -A INPUT -s 64:ff9b::22c0:687a -j ACCEPT
+iptables -A INPUT -s 64:ff9b::3655:ff61 -j ACCEPT
+# ----------------------------------------
+# https://user-signals.production-public.tubi.io/
+iptables -A INPUT -s 44.230.42.241 -j ACCEPT
+iptables -A INPUT -s 54.70.251.111 -j ACCEPT
+iptables -A INPUT -s 2600:1f14:b27:be04:ac9b:982b:ee3d:8f1c -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://usw-ca2.adsrvr.org
+iptables -A INPUT -s 199.250.160.129 -j ACCEPT
+iptables -A INPUT -s 64:ff9b::c7fa:a081 -j ACCEPT
+# ----------------------------------------
+# https://www.googletagmanager.com/gtag/js?id=G-
+iptables -A INPUT -s 142.250.190.104 -j ACCEPT
+iptables -A INPUT -s 2607:f8b0:4009:80b::2008 -j ACCEPT
+# ----------------------------------------
