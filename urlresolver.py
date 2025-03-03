@@ -9,20 +9,22 @@ def normalize_url(url):
     url = url.split('/')[0]  # Remove everything after the first /
     return url
 
-def resolve_dns(domain):
-    """Resolves A and AAAA records for a given domain."""
+def resolve_dns(domain, ipv4_only=False, ipv6_only=False):
+    """Resolves A and AAAA records for a given domain, with optional filtering."""
     a_records, aaaa_records = [], []
 
-    try:
-        a_records = socket.gethostbyname_ex(domain)[2]
-    except (socket.gaierror, socket.herror, socket.timeout):
-        a_records = []
+    if not ipv6_only:
+        try:
+            a_records = socket.gethostbyname_ex(domain)[2]
+        except (socket.gaierror, socket.herror, socket.timeout):
+            a_records = []
 
-    try:
-        aaaa_info = socket.getaddrinfo(domain, None, socket.AF_INET6)
-        aaaa_records = list(set(info[4][0] for info in aaaa_info if info[1] == socket.SOCK_STREAM))
-    except (socket.gaierror, socket.herror, socket.timeout):
-        aaaa_records = []
+    if not ipv4_only:
+        try:
+            aaaa_info = socket.getaddrinfo(domain, None, socket.AF_INET6)
+            aaaa_records = list(set(info[4][0] for info in aaaa_info if info[1] == socket.SOCK_STREAM))
+        except (socket.gaierror, socket.herror, socket.timeout):
+            aaaa_records = []
 
     return a_records, aaaa_records
 
@@ -32,6 +34,8 @@ def main():
     parser.add_argument("-o", "--output", type=str, default="resolved_addresses.txt", help="Output file (default: resolved_addresses.txt)")
     parser.add_argument("-n", "--normalize", action="store_true", help="Only normalize URLs without resolving DNS")
     parser.add_argument("-r", "--resolve", action="store_true", help="Resolve domains to their raw IP addresses")
+    parser.add_argument("-4", "--ipv4", action="store_true", help="Only output IPv4 addresses when resolving")
+    parser.add_argument("-6", "--ipv6", action="store_true", help="Only output IPv6 addresses when resolving")
     parser.add_argument("-c", "--cisco", action="store_true", help="Output in Cisco IOS prefix-list format")
     parser.add_argument("-j", "--junos", action="store_true", help="Output in JunOS prefix-list format")
     parser.add_argument("-x", "--iosxr", action="store_true", help="Output in IOS-XR prefix-set format")
@@ -56,38 +60,45 @@ def main():
             for url in urls:
                 domain = normalize_url(url.strip())
                 out_file.write(f"# {url.strip()}\n")
-                
+
                 if args.resolve:
-                    a_records, aaaa_records = resolve_dns(domain)
+                    a_records, aaaa_records = resolve_dns(domain, ipv4_only=args.ipv4, ipv6_only=args.ipv6)
+
+                    ip_list = []
+                    if args.ipv4 and not args.ipv6:
+                        ip_list = a_records
+                    elif args.ipv6 and not args.ipv4:
+                        ip_list = aaaa_records
+                    else:
+                        ip_list = a_records + aaaa_records
+
                     if args.cisco:
-                        for ip in a_records + aaaa_records:
+                        for ip in ip_list:
                             out_file.write(f" ip prefix-list {args.filter_name} permit {ip}/32\n")
                     elif args.junos:
-                        for ip in a_records + aaaa_records:
+                        for ip in ip_list:
                             out_file.write(f"     {ip}/32;\n")
                     elif args.iosxr:
-                        for ip in a_records + aaaa_records:
+                        for ip in ip_list:
                             out_file.write(f" {ip}/32,\n")
                     elif args.sros:
-                        for ip in a_records + aaaa_records:
+                        for ip in ip_list:
                             out_file.write(f" {ip}/32;\n")
                     elif args.iptables:
-                        for ip in a_records + aaaa_records:
+                        for ip in ip_list:
                             out_file.write(f"iptables -A INPUT -s {ip} -j ACCEPT\n")
                     else:
-                        if a_records:
-                            out_file.write("\n".join(a_records) + "\n")
-                        if aaaa_records:
-                            out_file.write("\n".join(aaaa_records) + "\n")
+                        if ip_list:
+                            out_file.write("\n".join(ip_list) + "\n")
                 else:
                     out_file.write(domain + "\n")
-                
+
                 out_file.write("# " + "-" * 40 + "\n")
-                
+
                 print(f"Processed Domain: {domain}")
                 if args.resolve:
-                    print(f"A Records: {', '.join(a_records) if a_records else 'None'}")
-                    print(f"AAAA Records: {', '.join(aaaa_records) if aaaa_records else 'None'}")
+                    print(f"IPv4: {', '.join(a_records) if a_records else 'None'}")
+                    print(f"IPv6: {', '.join(aaaa_records) if aaaa_records else 'None'}")
                 print('-' * 40)
 
             if args.junos:
