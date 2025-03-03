@@ -41,7 +41,9 @@ and then
 - `-c --cisco`: Specifies the output as a Cisco IOS prefix-list (requires -r)
 - `-x --iosxr`: Prints the output as an IOS-XR prefix-set (requires -r)
 - `-z --filter-name`: Sets the name of the filter in -c, -x, -t, and -j
-- `-h, --help`  : Displays the help message.
+- `-h --help`: Displays the help message.
+- `-6 --ipv6`: Print only IPv6 addresses.
+- `-4 --ipv4`: Print only crappy, legacy, IPv4 addresses, which are dumb.
 
 ## Examples
 ```sh

@@ -1,0 +1,156 @@
+# https://7e14d.v.fwmrm.net
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://a-fds.youborafds01.com
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://a4172.casalemedia.com
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://ad-events.flashtalking.com
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://ad.doubleclick.net
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://ade.googlesyndication.com
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://ads.stickyadstv.com
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://analytics-ingestion-v3.main-production-custom.production.k8s.tubi.io/
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://ark.tubi.video
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://b.videoamp.com/
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://bpm-pixel.pointmediatracker.com/
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://ca4-bid.adsrvr.org
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://cm.g.doubleclick.net
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://cs.ns1p.net/p.js?a=7ia9f3
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://d.agkn.com/
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://enduser.adsrvr.org
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://hilton.demdex.net/
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://image4.pubmatic.com/
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://k8s1-event-tracker-sj.lb.indexww.com/
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://o30277.ingest.sentry.io/
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://p.tvpixel.com/
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://pi.ispot.tv
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://pm.w55c.net/
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://rtr.innovid.com
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://s.innovid.com
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://s0.2mdn.net/dot.gif
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://secure-gl.imrworldwide.com
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://secure.insightexpressai.com
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://servedby.flashtalking.com
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://st.pubmatic.com
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://stags.bluekai.com/
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://t.pubmatic.com
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://tmobile.demdex.net/
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://tpsc-video-uw.doubleverify.com
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://track.activemetering.com/
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://uapi.production-public.tubi.io/datascience/logging?sendBeacon=true
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://unified.adsafeprotected.com
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://user-signals.production-public.tubi.io/
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# 
+# ----------------------------------------
+# https://usw-ca2.adsrvr.org
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
+# https://www.googletagmanager.com/gtag/js?id=G-
+iptables -A INPUT -s :: -j ACCEPT
+# ----------------------------------------
