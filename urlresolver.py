@@ -2,6 +2,7 @@
 import socket
 import re
 import argparse
+import dns.resolver
 
 def normalize_url(url):
     """Removes everything before '//' and anything after the first '/'."""
@@ -10,8 +11,11 @@ def normalize_url(url):
     return url
 
 def resolve_dns(domain, ipv4_only=False, ipv6_only=False):
-    """Resolves A and AAAA records for a given domain, with optional filtering."""
-    a_records, aaaa_records = [], []
+    """Resolves A and AAAA records for a given domain, with optional filtering and user defined resolver. This is harder than I want it to be. This probalby breaks shit"""
+    resolver = dns.resolver.Resolver()
+    if dns_server:
+        resolver.nameservers = [dns_server]
+
 
     if not ipv6_only:
         try:
