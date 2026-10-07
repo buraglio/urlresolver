@@ -1,47 +1,26 @@
 # https://7e14d.v.fwmrm.net
 7e14d.v.fwmrm.net
 # ----------------------------------------
-# 
-
-# ----------------------------------------
 # https://a-fds.youborafds01.com
 a-fds.youborafds01.com
-# ----------------------------------------
-# 
-
 # ----------------------------------------
 # https://a4172.casalemedia.com
 a4172.casalemedia.com
 # ----------------------------------------
-# 
-
-# ----------------------------------------
 # https://ad-events.flashtalking.com
 ad-events.flashtalking.com
-# ----------------------------------------
-# 
-
 # ----------------------------------------
 # https://ad.doubleclick.net
 ad.doubleclick.net
 # ----------------------------------------
-# 
-
-# ----------------------------------------
 # https://ade.googlesyndication.com
 ade.googlesyndication.com
-# ----------------------------------------
-# 
-
 # ----------------------------------------
 # https://ads.stickyadstv.com
 ads.stickyadstv.com
 # ----------------------------------------
 # https://analytics-ingestion-v3.main-production-custom.production.k8s.tubi.io/
 analytics-ingestion-v3.main-production-custom.production.k8s.tubi.io
-# ----------------------------------------
-# 
-
 # ----------------------------------------
 # https://ark.tubi.video
 ark.tubi.video
@@ -55,9 +34,6 @@ bpm-pixel.pointmediatracker.com
 # https://ca4-bid.adsrvr.org
 ca4-bid.adsrvr.org
 # ----------------------------------------
-# 
-
-# ----------------------------------------
 # https://cm.g.doubleclick.net
 cm.g.doubleclick.net
 # ----------------------------------------
@@ -66,9 +42,6 @@ cs.ns1p.net
 # ----------------------------------------
 # https://d.agkn.com/
 d.agkn.com
-# ----------------------------------------
-# 
-
 # ----------------------------------------
 # https://enduser.adsrvr.org
 enduser.adsrvr.org
@@ -97,35 +70,20 @@ pm.w55c.net
 # https://rtr.innovid.com
 rtr.innovid.com
 # ----------------------------------------
-# 
-
-# ----------------------------------------
 # https://s.innovid.com
 s.innovid.com
 # ----------------------------------------
 # https://s0.2mdn.net/dot.gif
 s0.2mdn.net
 # ----------------------------------------
-# 
-
-# ----------------------------------------
 # https://secure-gl.imrworldwide.com
 secure-gl.imrworldwide.com
-# ----------------------------------------
-# 
-
 # ----------------------------------------
 # https://secure.insightexpressai.com
 secure.insightexpressai.com
 # ----------------------------------------
-# 
-
-# ----------------------------------------
 # https://servedby.flashtalking.com
 servedby.flashtalking.com
-# ----------------------------------------
-# 
-
 # ----------------------------------------
 # https://st.pubmatic.com
 st.pubmatic.com
@@ -133,17 +91,11 @@ st.pubmatic.com
 # https://stags.bluekai.com/
 stags.bluekai.com
 # ----------------------------------------
-# 
-
-# ----------------------------------------
 # https://t.pubmatic.com
 t.pubmatic.com
 # ----------------------------------------
 # https://tmobile.demdex.net/
 tmobile.demdex.net
-# ----------------------------------------
-# 
-
 # ----------------------------------------
 # https://tpsc-video-uw.doubleverify.com
 tpsc-video-uw.doubleverify.com
@@ -154,17 +106,11 @@ track.activemetering.com
 # https://uapi.production-public.tubi.io/datascience/logging?sendBeacon=true
 uapi.production-public.tubi.io
 # ----------------------------------------
-# 
-
-# ----------------------------------------
 # https://unified.adsafeprotected.com
 unified.adsafeprotected.com
 # ----------------------------------------
 # https://user-signals.production-public.tubi.io/
 user-signals.production-public.tubi.io
-# ----------------------------------------
-# 
-
 # ----------------------------------------
 # https://usw-ca2.adsrvr.org
 usw-ca2.adsrvr.org
