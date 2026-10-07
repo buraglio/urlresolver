@@ -1,0 +1,57 @@
+# https://7e14d.v.fwmrm.net
+7e14d.v.fwmrm.net
+# ----------------------------------------
+# https://a-pdx.1rx.io
+a-pdx.1rx.io
+# ----------------------------------------
+# https://account.production-public.tubi.io
+account.production-public.tubi.io
+# ----------------------------------------
+# https://ad-events.flashtalking.com
+ad-events.flashtalking.com
+# ----------------------------------------
+# https://analytics-ingestion-v3.main-production-custom.production.k8s.tubi.io/ingestion/v3/events?sendBeacon=true
+analytics-ingestion-v3.main-production-custom.production.k8s.tubi.io
+# ----------------------------------------
+# https://api2.branch.io/v1/url
+api2.branch.io
+# ----------------------------------------
+# https://ark.tubi.video
+ark.tubi.video
+# ----------------------------------------
+# https://beacons.extremereach.io
+beacons.extremereach.io
+# ----------------------------------------
+# https://enduser.adsrvr.org
+enduser.adsrvr.org
+# ----------------------------------------
+# https://event.havasedge.com/
+event.havasedge.com
+# ----------------------------------------
+# https://secure-gl.imrworldwide.com
+secure-gl.imrworldwide.com
+# ----------------------------------------
+# https://servedby.flashtalking.com
+servedby.flashtalking.com
+# ----------------------------------------
+# https://sync.1rx.io/
+sync.1rx.io
+# ----------------------------------------
+# https://trackedevt.1rx.io/
+trackedevt.1rx.io
+# ----------------------------------------
+# https://user-signals.production-public.tubi.io/user-signals/v1/single-event?sendBeacon=true
+user-signals.production-public.tubi.io
+# ----------------------------------------
+# https://vid-io-sjc.springserve.com
+vid-io-sjc.springserve.com
+# ----------------------------------------
+# https://video-preview-lb.production-public.tubi.io/
+video-preview-lb.production-public.tubi.io
+# ----------------------------------------
+# https://wa2-bid.adsrvr.org/
+wa2-bid.adsrvr.org
+# ----------------------------------------
+# https://www.googletagmanager.com/
+www.googletagmanager.com
+# ----------------------------------------
